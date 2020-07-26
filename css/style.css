@@ -52,6 +52,7 @@ img {
   font-size: 30px;
   margin: 0 0 0 25px;
   color: #222;
+  align-items: center;
 }
 
 .main {
@@ -106,4 +107,106 @@ img {
 .info-img img {
   max-width: 860px;
   margin-left: auto;
+}
+
+/* Responsivo */
+@media (max-width: 1255px) {
+  .info h1 {
+    font-size: 2.81em;
+  }
+
+  .info-img img {
+    max-width: 760px;
+    margin-left: auto;
+  }
+
+  .info p {
+    max-width: 450px;
+  }
+
+  .info-btn {
+    width: 272px;
+    font-size: 1.187em;
+    font-weight: bold;
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 970px) {
+  .info-img img {
+    max-width: 460px;
+    margin-left: auto;
+    display: block;
+  }
+
+  .info p {
+    max-width: 380px;
+  }
+
+  .info-btn {
+    width: 272px;
+    font-size: 1.187em;
+    font-weight: bold;
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    margin: 55px 37px;
+  }
+
+  .main {
+    max-width: 680px;
+    margin: 0 auto 0;
+  }
+
+  .info {
+    position: relative;
+    left: 0;
+    margin: 0 0 50px 0;
+    padding: 0;
+  }
+
+  .info h1 {
+    text-align: center;
+  }
+
+  .info-img img {
+    max-width: 500px;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+  .info p {
+    margin: 25px auto;
+    text-align: center;
+    display: block;
+  }
+
+  .info-btn {
+    width: 272px;
+    font-size: 1.187em;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 15px 20px;
+    display: block;
+  }
+
+  .navigation a {
+    display: none;
+  }
+
+  .navigation::after {
+    content: '';
+    margin-right: 4px;
+    margin-top: 25px;
+    display: inline-block;
+    height: 3px;
+    width: 25px;
+    background: #000;
+    box-shadow: 0 7px #000, 0 -7px #000, 0 -14px #000;
+    transition: transform 0.3s;
+  }
 }
