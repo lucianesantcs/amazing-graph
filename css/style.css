@@ -68,46 +68,42 @@ img {
 }
 
 .info {
-  float: left;
+  left: 90px;
+  position: absolute;
 }
 
 .info h1 {
-  font-size: 5.5em;
+  font-size: 5.4em;
   max-width: 800px;
-  left: 85px;
-  position: absolute;
   color: #766f68;
 }
 
 .info p {
-  max-width: 700px;
+  margin: 35px 0;
+  max-width: 550px;
   font-size: 2.187em;
-  padding-top: 240px;
-  padding-left: 90px;
-  position: absolute;
   color: #766f68;
-}
-
-.info-img {
-  padding-top: 30px;
-  margin-right: auto;
-}
-
-.info-img img {
-  max-width: 850px;
-  margin-left: auto;
 }
 
 .info-btn {
   width: 372px;
   font-size: 2.187em;
   font-weight: bold;
-  padding: 25px 20px;
+  padding: 20px 20px;
+  margin-top: 25px;
   border: none;
   border-radius: 15px;
-  margin-top: 380px;
-  margin-left: 90px;
-  position: absolute;
   color: #fff;
   background: #d2872c;
+}
+
+.info-img {
+  padding-top: 30px;
+  margin-right: auto;
+  float: right;
+}
+
+.info-img img {
+  max-width: 860px;
+  margin-left: auto;
 }
