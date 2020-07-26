@@ -1,0 +1,113 @@
+/* Reset */
+body,
+h1,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Header */
+.header {
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  margin: 85px 57px;
+}
+
+.logo h1 {
+  font-weight: bold;
+  font-size: 2.5em;
+  color: #d2872c;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation li a {
+  font-size: 30px;
+  margin: 0 0 0 25px;
+  color: #222;
+}
+
+.main {
+  max-width: 1400px;
+  margin: 130px auto 0;
+  position: relative;
+}
+
+.main::after,
+.main::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.info {
+  float: left;
+}
+
+.info h1 {
+  font-size: 5.5em;
+  max-width: 800px;
+  left: 85px;
+  position: absolute;
+  color: #766f68;
+}
+
+.info p {
+  max-width: 700px;
+  font-size: 2.187em;
+  padding-top: 240px;
+  padding-left: 90px;
+  position: absolute;
+  color: #766f68;
+}
+
+.info-img {
+  padding-top: 30px;
+  margin-right: auto;
+}
+
+.info-img img {
+  max-width: 850px;
+  margin-left: auto;
+}
+
+.info-btn {
+  width: 372px;
+  font-size: 2.187em;
+  font-weight: bold;
+  padding: 25px 20px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 380px;
+  margin-left: 90px;
+  position: absolute;
+  color: #fff;
+  background: #d2872c;
+}
