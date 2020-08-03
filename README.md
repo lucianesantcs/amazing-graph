@@ -1,4 +1,4 @@
-<h3 align="center"><a href="https://lucianesantcs.github.io/amazinggraph">amazing graph</a></h3>
+<h3 align="center"><a href="https://lucianesantcs.github.io/AmazingGraph">amazing graph</a></h3>
 <p align="center">
   Landing page para site de criação de gráficos
 </p>
