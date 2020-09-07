@@ -51,4 +51,8 @@ li {
   padding: 15px 18px;
   background-color: $colorMain;
   border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background-color: rgba($colorMain, $alpha: 0.9);
+  }
 }

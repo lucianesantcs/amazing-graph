@@ -52,6 +52,12 @@ li {
   padding: 15px 18px;
   background-color: #d2872c;
   border-radius: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: rgba(210, 135, 44, 0.9);
 }
 
 .header {
@@ -144,6 +150,11 @@ li {
   }
   .header-logo {
     font-size: 2.5rem;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .header-logo:hover {
+    color: rgba(210, 135, 44, 0.9);
   }
   .header #btnHamburger {
     display: none;
@@ -159,6 +170,13 @@ li {
   }
   .header .nav li:not(:last-child) {
     margin-right: 34px;
+  }
+  .header .nav li a {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .header .nav li a:hover {
+    color: rgba(210, 135, 44, 0.9);
   }
 }
 
