@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Amazing Graph</title>
+    <!-- General meta tags needed-->
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <!-- Needed for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>AmazingGraph</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" />
+    <!-- CSS File -->
+    <link rel="stylesheet" type="text/css" href="dist/style.css" />
   </head>
   <body>
     <header class="header">
-      <div class="logo">
-        <h1>DevChallenge</h1>
-      </div>
-      <nav class="navigation">
+      <a href="/" class="header-logo"> AmazingGraph </a>
+      <nav class="nav">
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Features</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+      <a href="#" class="mobile-menu" id="btnHamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
     </header>
-    <main class="main">
-      <div class="info-img">
-        <img src="./assets/team.jpg" alt="Team Image" />
+
+    <section class="main">
+      <div class="main-img">
+        <img src="./app/assets/team.jpg" alt="AmazingGraph" />
       </div>
-      <div class="info">
+      <div class="main-content">
         <h1>Create amazing graphics</h1>
-        <p>Colaborante and create beautiful graphic with your team</p>
-        <button class="info-btn">Start now</button>
+        <h2>Colaborate and create beautiful graphics with your team</h2>
+        <a href="#" class="button">Start now</a>
       </div>
-    </main>
+    </section>
+
+    <!-- JavaScript File -->
+    <script src="/app/js/scripts.js"></script>
   </body>
 </html>

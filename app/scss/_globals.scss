@@ -1,0 +1,54 @@
+// Reset
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.4;
+  overflow-x: hidden;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:visited,
+a:hover {
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.button {
+  display: block;
+  cursor: pointer;
+  font-size: $font-medium;
+  font-weight: bold;
+  color: $colorLight;
+  padding: 15px 18px;
+  background-color: $colorMain;
+  border-radius: 15px;
+}
