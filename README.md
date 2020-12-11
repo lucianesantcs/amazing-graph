@@ -7,7 +7,7 @@ Landing page para site de criação de gráficos.
 <a href="https://lucianesantcs.github.io/AmazingGraph/">Live Preview</a>
 ### DevChallenge
 Desafio de Front-End proposto pelo Dev Challenge, site para desenvolvedores melhorarem suas habilidades.
-- <a href="https://devchallenge.com.br/detail/5ec9a7fc10e94a38493d3910">DevChallenge</a>
+- <a href="https://devchallenge.com.br/challenges/5ec9a7fc10e94a38493d3910/details">DevChallenge</a>
 - Desafio por <a href="https://github.com/Lorenalgm/AmazingGraph">Lorena Montes</a>
 
 ### Techs
